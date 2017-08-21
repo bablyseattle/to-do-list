@@ -7,3 +7,47 @@
 li{
   margin: 20px;
 }
+
+* {
+  font-size: 30px;
+  font-family: 'shadows into light', cursive;
+}
+
+body {
+  background-image: img/notepad3.jpg;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.jumbotron {
+ padding: 30px;
+ margin-bottom: 30px;
+ font-size: 21px;
+ font-weight: 200;
+ line-height: 2.1428571435;
+ color: inherit;
+ background-color: transparent;
+}
+
+.btn{
+  color: #2a2d2d;
+  width: 150px;
+  height: 50px;
+  background-color: #ffd987;
+  border-radius: 5px;
+  border: 2px solid #564d3a;
+  font-size: 20px;
+}
+li{
+  color: #f9f1b8;
+}
+.done-delete{
+  color: #2a2d2d;
+}
+.btn :hover{
+  background-color: #dcefdd;
+  cursor: crosshair;
+}
